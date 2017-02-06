@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.17.10
+
+Node version: 
+  6.7.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "AppDownloadPage",
+    "version": "1.0.0",
+    "description": "App下载页面",
+    "private": true,
+    "engines": {
+      "node": ">=4"
+    },
+    "devDependencies": {
+      "browser-sync": "^2.2.1",
+      "del": "^2.2.0",
+      "gulp": "^3.9.0",
+      "gulp-autoprefixer": "^3.0.1",
+      "gulp-cache": "^0.4.2",
+      "gulp-cssnano": "^2.0.0",
+      "gulp-htmlmin": "^3.0.0",
+      "gulp-if": "^2.0.2",
+      "gulp-imagemin": "^3.0.1",
+      "gulp-inline-source": "^2.1.0",
+      "gulp-load-plugins": "^1.2.4",
+      "gulp-plumber": "^1.0.1",
+      "gulp-sass": "^2.0.0",
+      "gulp-sequence": "^0.4.5",
+      "gulp-size": "^2.1.0",
+      "gulp-sourcemaps": "^2.2.0",
+      "gulp-uglify": "^2.0.0",
+      "gulp-useref": "^3.0.0",
+      "run-sequence": "^1.2.2"
+    },
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: read ETIMEDOUT
+      at exports._errnoException (util.js:1036:11)
+      at TLSWrap.onread (net.js:564:26)
