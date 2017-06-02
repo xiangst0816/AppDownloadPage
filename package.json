@@ -1,6 +1,6 @@
 {
   "name": "AppDownloadPage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "App下载页面",
   "private": true,
   "engines": {
@@ -25,7 +25,6 @@
     "gulp-sourcemaps": "^2.2.0",
     "gulp-uglify": "^2.0.0",
     "gulp-useref": "^3.0.0",
-    "merge-stream": "^1.0.1",
     "run-sequence": "^1.2.2"
   },
   "main": "index.js",
