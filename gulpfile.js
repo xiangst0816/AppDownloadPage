@@ -13,9 +13,7 @@ var AutoRreFixerParams = {
   browsers: [
     'last 2 versions',
     'iOS >= 7',
-    'Android >= 4',
-    'Explorer >= 10',
-    'ExplorerMobile >= 11'],
+    'Android >= 4'],
   cascade: false
 };
 
